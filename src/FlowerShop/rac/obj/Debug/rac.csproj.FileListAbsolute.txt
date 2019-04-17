@@ -1,0 +1,13 @@
+C:\Users\Hoang Nguyen\source\repos\rac\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\source\repos\rac\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\source\repos\rac\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.pdb
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\source\repos\rac\rac\obj\Debug\rac.frmNhanVien.resources
