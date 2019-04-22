@@ -60,6 +60,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.xuấtHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -127,7 +128,8 @@
             this.menuLoaiNV,
             this.menuNhapHang,
             this.menuSPHetHan,
-            this.menuQuanlynguoidung});
+            this.menuQuanlynguoidung,
+            this.xuấtHàngToolStripMenuItem});
             this.menuItemDanhMuc.Name = "menuItemDanhMuc";
             resources.ApplyResources(this.menuItemDanhMuc, "menuItemDanhMuc");
             // 
@@ -267,6 +269,11 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // xuấtHàngToolStripMenuItem
+            // 
+            this.xuấtHàngToolStripMenuItem.Name = "xuấtHàngToolStripMenuItem";
+            resources.ApplyResources(this.xuấtHàngToolStripMenuItem, "xuấtHàngToolStripMenuItem");
+            // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
@@ -274,8 +281,10 @@
             this.BackgroundImage = global::rac.Properties.Resources._49107efe48feec2eeb662856ac12ebcb;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.IsMdiContainer = true;
             this.Name = "frmMain";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
@@ -319,6 +328,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem menuSPHetHan;
         private System.Windows.Forms.ToolStripMenuItem menuQuanlynguoidung;
+        private System.Windows.Forms.ToolStripMenuItem xuấtHàngToolStripMenuItem;
     }
 }
 
