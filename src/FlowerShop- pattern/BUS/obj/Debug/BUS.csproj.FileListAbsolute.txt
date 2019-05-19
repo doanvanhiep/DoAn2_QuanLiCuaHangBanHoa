@@ -1,0 +1,50 @@
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\obj\Debug\BUS.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\BUS\obj\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\obj\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\BUS\obj\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\obj\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\BUS\obj\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\obj\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\BUS\obj\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\obj\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\BUS\obj\Debug\BUS.pdb

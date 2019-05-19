@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FlowersShop" Class="LinQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-2FG0HF9;Initial Catalog=FlowersShop;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="FlowersShopConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SanPham" Member="SanPhams">
+    <Type Name="SanPham">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="SanPham_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="IDSP" OtherKey="IDSP" Type="ChiTietHoaDon" />
+      <Association Name="SanPham_KhoHang" Member="KhoHangs" ThisKey="IDSP" OtherKey="IDSP" Type="KhoHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChiTietHoaDon" Member="ChiTietHoaDons">
+    <Type Name="ChiTietHoaDon">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DonGia" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="SanPham_ChiTietHoaDon" Member="SanPham" ThisKey="IDSP" OtherKey="IDSP" Type="SanPham" IsForeignKey="true" />
+      <Association Name="HoaDon_ChiTietHoaDon" Member="HoaDon" ThisKey="IDHoaDon" OtherKey="IDHoaDon" Type="HoaDon" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HoaDon" Member="HoaDons">
+    <Type Name="HoaDon">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NgayThanhToan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IDNV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TongTien" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="HoaDon_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="IDHoaDon" OtherKey="IDHoaDon" Type="ChiTietHoaDon" />
+      <Association Name="NhanVien_HoaDon" Member="NhanVien" ThisKey="IDNV" OtherKey="IDNV" Type="NhanVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KhoHang" Member="KhoHangs">
+    <Type Name="KhoHang">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDNV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayNhap" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="NgayHetHan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GiaNhap" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="SanPham_KhoHang" Member="SanPham" ThisKey="IDSP" OtherKey="IDSP" Type="SanPham" IsForeignKey="true" />
+      <Association Name="NhanVien_KhoHang" Member="NhanVien" ThisKey="IDNV" OtherKey="IDNV" Type="NhanVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiNhanVien" Member="LoaiNhanViens">
+    <Type Name="LoaiNhanVien">
+      <Column Name="IDLoaiNV" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LoaiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="LoaiNhanVien_NhanVien" Member="NhanViens" ThisKey="IDLoaiNV" OtherKey="IDLoaiNV" Type="NhanVien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhanVien" Member="NhanViens">
+    <Type Name="NhanVien">
+      <Column Name="IDNV" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TuoiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDLoaiNV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NhanVien_HoaDon" Member="HoaDons" ThisKey="IDNV" OtherKey="IDNV" Type="HoaDon" />
+      <Association Name="NhanVien_KhoHang" Member="KhoHangs" ThisKey="IDNV" OtherKey="IDNV" Type="KhoHang" />
+      <Association Name="LoaiNhanVien_NhanVien" Member="LoaiNhanVien" ThisKey="IDLoaiNV" OtherKey="IDLoaiNV" Type="LoaiNhanVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_DeleteKhoHang" Method="sp_DeleteKhoHang">
+    <Parameter Name="stt" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_updateSLKhoHang" Method="sp_updateSLKhoHang">
+    <Parameter Name="STT" Parameter="sTT" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Soluong" Parameter="soluong" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_DeleteNhanVien" Method="sp_DeleteNhanVien">
+    <Parameter Name="IDNV" Parameter="iDNV" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_DeleteSanPham" Method="sp_DeleteSanPham">
+    <Parameter Name="idsp" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_getGiaSanPhamByID" Method="sp_getGiaSanPhamByID">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_getGiaSanPhamByIDResult">
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_getIDSPByName" Method="sp_getIDSPByName">
+    <Parameter Name="TenSP" Parameter="tenSP" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="sp_getIDSPByNameResult">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_getNhanVienByID" Method="sp_getNhanVienByID">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_getNhanVienByIDResult">
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LoaiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_getSumSanPhamByID" Method="sp_getSumSanPhamByID">
+    <Parameter Name="IDSP" Parameter="iDSP" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_getSumSanPhamByIDResult">
+      <Column Name="SumSP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_insertHoaDon" Method="sp_insertHoaDon">
+    <Parameter Name="NgayThanhToan" Parameter="ngayThanhToan" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="IDNV" Parameter="iDNV" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TongTien" Parameter="tongTien" Type="System.Single" DbType="Real" />
+    <Parameter Name="TrangThai" Parameter="trangThai" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_insertHoaDonChiTiet" Method="sp_insertHoaDonChiTiet">
+    <Parameter Name="IDHoaDon" Parameter="iDHoaDon" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IDSP" Parameter="iDSP" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SoLuong" Parameter="soLuong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DonGia" Parameter="donGia" Type="System.Single" DbType="Real" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_insertKhoHang" Method="sp_insertKhoHang">
+    <Parameter Name="idsp" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idnv" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NgayNhap" Parameter="ngayNhap" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NgayHetHan" Parameter="ngayHetHan" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Soluong" Parameter="soluong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="gianhap" Type="System.Single" DbType="Real" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_insertSanPham" Method="sp_insertSanPham">
+    <Parameter Name="Tensp" Parameter="tensp" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gia" Type="System.Int32" DbType="Int" />
+    <Parameter Name="mota" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuThang" Method="sp_LoadDoanhThuThang">
+    <ElementType Name="sp_LoadDoanhThuThangResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuThangTruoc" Method="sp_LoadDoanhThuThangTruoc">
+    <ElementType Name="sp_LoadDoanhThuThangTruocResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDSHetHan" Method="sp_LoadDSHetHan">
+    <ElementType Name="sp_LoadDSHetHanResult">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NgayHetHan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadGiaHoaDon" Method="sp_LoadGiaHoaDon">
+    <ElementType Name="sp_LoadGiaHoaDonResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadHoaDon" Method="sp_LoadHoaDon">
+    <ElementType Name="sp_LoadHoaDonResult">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NgayThanhToan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TongTien" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadHoaDonChiTietbyIDHoaDon" Method="sp_LoadHoaDonChiTietbyIDHoaDon">
+    <Parameter Name="IDHoaDon" Parameter="iDHoaDon" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_LoadHoaDonChiTietbyIDHoaDonResult">
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ThanhTien" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadHoaDonHuy" Method="sp_LoadHoaDonHuy">
+    <ElementType Name="sp_LoadHoaDonHuyResult">
+      <Column Name="sl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadHoaDonNgayTruoc" Method="sp_LoadHoaDonNgayTruoc">
+    <ElementType Name="sp_LoadHoaDonNgayTruocResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadKhoHang" Method="sp_LoadKhoHang">
+    <ElementType Name="sp_LoadKhoHangResult">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDNV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NgayNhap" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="NgayHetHan" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GiaNhap" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadNhanVien" Method="sp_LoadNhanVien">
+    <ElementType Name="sp_LoadNhanVienResult">
+      <Column Name="IDNV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TuoiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDLoaiNV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoaiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadSanPham" Method="sp_LoadSanPham">
+    <ElementType Name="sp_LoadSanPhamResult">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadSanPhamBanChayNhat" Method="sp_LoadSanPhamBanChayNhat">
+    <ElementType Name="sp_LoadSanPhamBanChayNhatResult">
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Max" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_MaxHoaDon" Method="sp_MaxHoaDon">
+    <ElementType Name="sp_MaxHoaDonResult">
+      <Column Name="MaxIDHoaDon" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_updateKhoHang" Method="sp_updateKhoHang">
+    <Parameter Name="STT" Parameter="sTT" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idsp" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idnv" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NgayNhap" Parameter="ngayNhap" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NgayHetHan" Parameter="ngayHetHan" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Soluong" Parameter="soluong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GiaNhap" Parameter="giaNhap" Type="System.Single" DbType="Real" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_updatePasswordNhanVien" Method="sp_updatePasswordNhanVien">
+    <Parameter Name="idnv" Type="System.Int32" DbType="Int" />
+    <Parameter Name="userpassword" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_updateSanPham" Method="sp_updateSanPham">
+    <Parameter Name="idsp" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Tensp" Parameter="tensp" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gia" Type="System.Int32" DbType="Int" />
+    <Parameter Name="mota" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.checkAccount" Method="checkAccount" IsComposable="true">
+    <Parameter Name="userID" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="pass" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LoadNhanVienByType" Method="sp_LoadNhanVienByType">
+    <Parameter Name="idloainv" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tennv" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="sp_LoadNhanVienByTypeResult">
+      <Column Name="IDNV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TuoiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDLoaiNV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoaiNV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadSanPhamByName" Method="sp_LoadSanPhamByName">
+    <Parameter Name="tensp" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="sp_LoadSanPhamByNameResult">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadSanPhamByID" Method="sp_LoadSanPhamByID">
+    <Parameter Name="idsp" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_LoadSanPhamByIDResult">
+      <Column Name="IDSP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuNam" Method="sp_LoadDoanhThuNam">
+    <ElementType Name="sp_LoadDoanhThuNamResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuNamTruoc" Method="sp_LoadDoanhThuNamTruoc">
+    <ElementType Name="sp_LoadDoanhThuNamTruocResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuTuan" Method="sp_LoadDoanhThuTuan">
+    <ElementType Name="sp_LoadDoanhThuTuanResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuTuanTruoc" Method="sp_LoadDoanhThuTuanTruoc">
+    <ElementType Name="sp_LoadDoanhThuTuanTruocResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadDoanhThuThangByCount" Method="sp_LoadDoanhThuThangByCount">
+    <Parameter Name="count" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_LoadDoanhThuThangByCountResult">
+      <Column Name="IDHoaDon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LoadSanPhamBanTeNhat" Method="sp_LoadSanPhamBanTeNhat">
+    <ElementType Name="sp_LoadSanPhamBanTeNhatResult">
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Max" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_insertNhanVien" Method="sp_insertNhanVien">
+    <Parameter Name="TenNv" Parameter="tenNv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Tuoi" Parameter="tuoi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="userid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="userpassword" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="idloainv" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_updateNhanVien" Method="sp_updateNhanVien">
+    <Parameter Name="idnv" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TenNv" Parameter="tenNv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Tuoi" Parameter="tuoi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="userid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="userpassword" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="idloainv" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

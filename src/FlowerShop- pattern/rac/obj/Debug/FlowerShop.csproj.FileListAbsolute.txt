@@ -1,0 +1,140 @@
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\FlowerShop.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmNhanVien.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\FlowerShop.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\FlowerShop.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmSanPham.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmAccount.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmKhoHang.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmChiTietCuaHang.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmChiTietHoaDon.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmHetHan.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmThongKeHoaDon.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmXuatHang.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\FlowerShop.csproj.CopyComplete
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.frmTroGiup.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\rac\obj\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\FlowerShop.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmAccount.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmChiTietCuaHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmNhanVien.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmSanPham.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmKhoHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmChiTietHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmHetHan.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmThongKeHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmTroGiup.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.frmXuatHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\FlowerShop.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\FlowerShop.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\FlowerShop.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\rac\obj\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\FlowerShop.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmAccount.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmChiTietCuaHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmNhanVien.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmSanPham.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmKhoHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmChiTietHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmHetHan.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmThongKeHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmTroGiup.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.frmXuatHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\FlowerShop.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\FlowerShop.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\FlowerShop.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\rac\obj\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\FlowerShop.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmAccount.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmChiTietCuaHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmNhanVien.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmSanPham.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmKhoHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmChiTietHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmHetHan.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmThongKeHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmTroGiup.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.frmXuatHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\FlowerShop.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\FlowerShop.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\FlowerShop.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- 3pattern\rac\obj\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\rac.exe.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\rac.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\BUS.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\BUS.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\FlowerShop.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmAccount.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmChiTietCuaHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmNhanVien.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmSanPham.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmKhoHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmChiTietHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmHetHan.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmMain.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmLogin.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmChangePassword.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmThongKeHoaDon.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmTroGiup.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.frmXuatHang.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.Properties.Resources.resources
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\FlowerShop.csproj.GenerateResource.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\FlowerShop.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\FlowerShop.csproj.CopyComplete
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.exe
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern\rac\obj\Debug\rac.pdb

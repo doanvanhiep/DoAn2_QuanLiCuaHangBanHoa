@@ -1,0 +1,21 @@
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\obj\Debug\DAL.dll
+C:\Users\Hoang Nguyen\source\repos\FlowerShop\DAL\obj\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\obj\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop\DAL\obj\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\bin\Debug\DAL.dll.config
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\bin\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\bin\Debug\DAL.pdb
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\obj\Debug\DAL.dll
+C:\Users\Hoang Nguyen\Desktop\FlowerShop- pattern3\DAL\obj\Debug\DAL.pdb
